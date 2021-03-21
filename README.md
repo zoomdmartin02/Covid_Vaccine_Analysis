@@ -9,9 +9,11 @@ This project is established to answer the following question,
 > Assuming an adverse reaction to one of the Covid-19 vaccines from PFizer or Moderna, does having a pre-existing condition, taking additional medications or having allergies increase the likelihood of death or hospitalization for age group or sex?
 
 ## Team Members
- - Rima Mehra
- - Vitaly Bourenin
- - David Martin
+ - Rima Mehra will be responsible for generating the Entity Relationship Diagram (ERD) and initial SQL statements to create tables.  Please refer to Rima's branch, "Rima" for view of these deliverables.
+
+ - Vitaly Bourenin will generate the initial machine learning model and connection string to the postgres database from python.  Following is the link to a python file which demonstrates connection strings and machine learning model:  [Python_File](https://github.com/zoomdmartin02/final_project_team11/blob/Vitaly/Model_team11.ipynb).  Please also refer to branch, "Vitaly" for a direct view of these deliverables.
+
+ - David Martin is responsible for the GitHub repositories and will setup the AWS PostgreSQL database and generate the ReadMe.MD and a draft of the Google Slides presentation.  [Segment1_Presentation](https://github.com/zoomdmartin02/final_project_team11/blob/main/Presentation%20Draft%20Segment%201%20-%20Adverse%20Reactions%20to%20Covid-19%20Vaccines.pdf).  Please see branch, "David" if needed, although these deliverables were merged into the "Main" branch.
 
  ## Communication Channels
  The team will primarily communicate through Slack.  A TEAM 11 channel has been established and all team members are members and have verified communciation capability on the channel.
