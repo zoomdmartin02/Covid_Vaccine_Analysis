@@ -6,7 +6,7 @@ The Food and Drug Administration (FDA) and Centers for Disease Control and Preve
 The dataset(s) we are utilizing are provided by this organization and consist of (3) related .CSV files, each indexed by a patient ID and consisting of nearly 52,000 records providing various details about the adverse event experienced by the vaccine recipients of the Covid-19 vaccine from PFizer and Moderna starting in 2020 through the first quarter of 2021.
 
 This project is established to answer the following question,
-> Assuming an adverse reaction to one of the Covid-19 vaccines from PFizer or Moderna, does having a pre-existing condition,  increase the likelihood of death or hospitalization increased by any age groups?
+> Assuming an adverse reaction to one of the Covid-19 vaccines from PFizer or Moderna, does having a pre-existing condition, taking additional medications or having allergies increase the likelihood of death or hospitalization for age group or sex?
 
 ## Team Members
  - Rima Mehra
@@ -30,12 +30,27 @@ This project is established to answer the following question,
  6. 2021VARESVAX.CSV
 
  ## Technologies
+
  ### Data Storage
- The team has agreed to use PostgreSQL, hosted on Amazon AWS.
+ The team has agreed to use PostgreSQL, hosted on Amazon AWS.  The follwoing ERD references two primary tables that we will utilize for multiple analyses.  
+
+ ![ERD](ERD.png)
+
+After cleaning data, the Incident Table is the primary table we are doing initial analysis and machine learning for in order to evaluate predictability of death as an adverse reaction when pre-existing conditions are a factor.
+
+The Symptoms table will need further development and may serve as an opportunity to perform unsupervised learning to see if there are any clusters based on symptom type that result in death or hospitalization.
+
 
  ### Machine Learning
- Thee Machine Learning Module likely utilized will be Unsupervised Machine Learing.  Python libraries expected are:
+ The Machine Learning Module utilized for our initial analysis is Supervised Learning:  Logistic Regression.  We believe further analysis of symptom data will allow for further analysis using Unsupervised Machine Learing.  Python libraries expected are:
  - pandas, 
+ - numpy
  - hvplot, 
+ - plotly
  - plotly.express
  - sklearn (KMeans, StandardScaler, MinMaxScaler and PCA)
+
+ ![Machine_Learning](Machine_Learning_Model.png)
+ 
+ ### Visualization
+ Tableau will be the primary visualization tool to present our findings.
