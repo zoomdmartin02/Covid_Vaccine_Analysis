@@ -1,0 +1,37 @@
+Our Project is about trying to predict if a person taking a COVID vaccine is going to have a serious adverse reaction or not given features such as existing allergies, 
+current medication, age and gender. Our output value here is our symptoms and we plan on predicting the severity of it. 
+
+## Data Source
+ - Our data source is from HHS Vaers website - https://vaers.hhs.gov/data/datasets.html?
+ - We downloaded the latest available data for 2020 and 2021
+ - We have 3 files for 2020 ( Vaersdata, vaerssymptoms, vaersvax) and the same 3 files for 2021
+ - We then used Python and pandas library to merge the same tables for both the years to have  master table for each of the above.
+
+
+## Data Cleaning
+ - Each member of the team took one of the three master files and started the cleaning process.
+ - We first dropped the data that was not related to the COVID-19 vaccination.
+ - Information on Vaccination was only in our vaersvax source file so we had to merge that file with the other two files on Vaers_id in order to drop non Covid records.
+ - We created three seperate clean data tables for Allergies, Medication and Symptoms to use as X and Y values to train and test our model. 
+ - All of our cleaning process were done in a jupyter notebook and then the static data was saved into our database.
+ - We connected our machine learning model to our database to read the clean tables and do our analysis.
+ - Each table we created in the database has descriptions under the properties section explaining the join/merge creteria used if any.
+
+
+ ## Supervised Machine Learning Model
+
+
+ ## Unsupervised Machine Learning Model
+
+
+ ## Visualization & Story Board
+  Our overall story and study of our analysis will let the user interact with the aggregated 
+  results and filter on topics that matter most to them.
+  Our interactive dashboard will be hosted on Tableau Public and a user will be able to filter through gender, 
+  age bucket and pre existing conditions to see their likely of having a serious adverse reaction.
+
+
+## The Bottom Line
+COVID-19 vaccines help our bodies develop immunity to the virus that causes COVID-19 without us having to get the illness. 
+Getting vaccinated is one of many steps you can take to protect yourself and others from COVID-19.  Protection from COVID-19 
+is critically important because for some people, COVID-19 can cause severe illness or death as seen by our study. 
