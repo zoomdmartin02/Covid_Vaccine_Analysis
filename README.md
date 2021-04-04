@@ -1,58 +1,64 @@
-# Vaccine Adverse Event Reporting System (VAERS)
+### COVID-19 Vaccine Research
 
-## Introduction
-The Food and Drug Administration (FDA) and Centers for Disease Control and Prevention (CDC) established the Vaccine Adverse Event Reporting System (VAERS) to receive reports about adverse events that may be associated with vaccines.
+Our Project is about trying to predict if a person taking a COVID vaccine is going to have a serious adverse reaction or not given features such as existing allergies, 
+current medication, age and gender. Please visit our [Google Slide Presentation](https://docs.google.com/presentation/d/1jvdRTj7KpEPRe3xggcCQyRMWejOfemQR9ayRXhyVhGs/edit?usp=sharing) for more details. 
 
-The dataset(s) we are utilizing are provided by this organization and consist of (3) related .CSV files, each indexed by a patient ID and consisting of nearly 52,000 records providing various details about the adverse event experienced by the vaccine recipients of the Covid-19 vaccine from PFizer and Moderna starting in 2020 through the first quarter of 2021.
+## Data Source
+ - Our data source is from HHS Vaers website - [Data Source](https://vaers.hhs.gov/data/datasets.html?)
+ - We downloaded the latest available data for 2020 and 2021
+ - To support the machine learning and visualization activities, the database will build off of the original three CSV files. Each of these  files were written to the database in their original form and named as follows:
+  - VAERS_Data_Raw
+  - VAERS_Symptom_Raw
+  - VAERS_Vax_Raw
+- These files were then pulled into python by various team members and cleaned in preparation for machine learning activities. 
+- “vaers_raw_erd.png” in the main branch is the Entity Relationship Diagram that is the basis for all of our database joins 
+ in any of the subsequent tables that are created.
+- The three tables each have a VAERS_ID column and are joined with a 1-many relationship from VAERS_VAX_RAW to VAERS_DATA_RAW and a 1-many relationship from VAERS_VAX_RAW to VAERS_SYMPTOM_RAW as well.
 
-This project is established to answer the following question,
-> Assuming an adverse reaction to one of the Covid-19 vaccines from PFizer or Moderna, does having a pre-existing condition, taking additional medications or having allergies increase the likelihood of death or hospitalization for age group or sex?
+## Data Cleaning
 
-## Team Members
- - Rima Mehra will be responsible for generating the Entity Relationship Diagram (ERD) and initial SQL statements to create tables.  Please refer to Rima's branch, "Rima" for view of these deliverables.
+### Cleaning for VAERS_Symptoms_Raw
+VAERS Symptoms data is essentially 5 columns of symptom data. Each column row is a single value. However, there are many duplicate VAERS IDs. The highest frequency of documented symptoms for a single patient is 120 symptoms.
 
- - Vitaly Bourenin will generate the initial machine learning model and connection string to the postgres database from python.  Following is the link to a python file which demonstrates connection strings and machine learning model:  [Python_File](https://github.com/zoomdmartin02/final_project_team11/blob/Vitaly/Model_team11.ipynb).  Please also refer to branch, "Vitaly" for a direct view of these deliverables.
+To prepare for machine learning, the data had to be a single value per column, but all duplicate rows needed to be removed. The goal was accomplished by merging the five columns into a single column with a list of five values. Next, a lambda function that leverages the join method to find all duplicate rows and merge their 5 symptoms into the first occurrence of the duplicated VAERS ID.
 
- - David Martin is responsible for the GitHub repositories and will setup the AWS PostgreSQL database and generate the ReadMe.MD and a draft of the Google Slides presentation.  [Segment1_Presentation](https://github.com/zoomdmartin02/final_project_team11/blob/main/Presentation%20Draft%20Segment%201%20-%20Adverse%20Reactions%20to%20Covid-19%20Vaccines.pdf).  Please see branch, "David" if needed, although these deliverables were merged into the "Main" branch.
+Now the symptoms data was a dataframe with unique VAERS_IDs and each row with a single list of symptoms, with as many as 120 values in the list. Next, the values in the lists were split into individual columns. This would allow these text columns to be encoded during the machine learning process.
+Please see “symptoms_cleaning.ipynb” to review related python code.
 
- ## Communication Channels
- The team will primarily communicate through Slack.  A TEAM 11 channel has been established and all team members are members and have verified communciation capability on the channel.
+### Cleaning for VAERS_Data_Raw
+VAERS_Data_Raw has many data elements of interest including basic demographics for each patient and other useful information such as medical history, allergies and other medications. Aside from utilizing the demographic information, allergies and other medication information was part of the needed data set to support our machine learning models. Both allergies data and other medications data were also documented in a single column with multiple entries per row. This data also had to be split and placed in columns in a 1:1 ration between column and allergy or medication values.
 
- Each team member has also provided cell phone numbers, email addresses and GitHub userids.
+To prepare for our machine learning model, we had to create an allergy table and scrub out all the bad data. We started with a merged file of VAERS_Data_Raw and VAERS_Vax_Raw called vaerscombined_2 so as to eliminate rows that were non COVID-19 related. We then dropped the non essential columns and were left with vaers_id and Allergy.
 
- The team has agreed to meet nightly this past week at 8PM for a check-in and review of each other's progress, to assist each other and generally ensure all are collaborating on each deliverable.
+We then used a lambda function to split the allergy column using a delimeter and after scrubbing down all non-essential values we created out Allergy table and saved it to our database. Please see “Clean_Split_Allergy_Table.ipynb” to review related python code.
 
- ## Data Source
- The VAERS data was originally discoverd on Kaggle.com.  However, a more thorough search allowed the team to discover that a greater amount of data was available at [VAERS_Data](https://vaers.hhs.gov/data.html).  The downloadable data entails (2) zip file downloads for 2020 vaersdata and 2021 vaersdata.  Each zip file contains (3) .csv files:
- 1. 2020VAERSDATA.CSV
- 2. 2020VAERSSYMPTOMS.CSV
- 3. 2020VARESVAX.CSV
- 4. 2021VAERSDATA.CSV
- 5. 2021VAERSSYMPTOMS.CSV
- 6. 2021VARESVAX.CSV
+<!-- [Vitaly to reference python file for medications cleaning] -->
 
- ## Technologies
+### Cleaning for VAERS_Vax_Raw
+This data set listed the VAERS_ID and vaccine information such as the vaccine manufacturer, dose lot and dose series. These features too were believed to be relevant to our planned models. Cleaning this table however was relatively easy as it was already setup with no duplicate VAERS_ID values. A subset of this data is all that was needed as it included many other vaccines besides COVID-19. Our study is relevant to only COVID-19 and this is the subset of vaccine information that we gathered.
 
- ### Data Storage
- The team has agreed to use PostgreSQL, hosted on Amazon AWS.  The follwoing ERD references two primary tables that we will utilize for multiple analyses.  
+Please see vax_cleaning.ipynb in the main branch for coding details.
 
- ![ERD](ERD.png)
+These tables were saved in the database as clean_vaers_vax, clean_vaers_data and clean_vaers_symptom. In the database, they were joined with left outer joins to VAERS_VAX. Please see “create_ml_tables.sql’ in the main branch to review the database joins in preparation for unsupervised machine learning activities.
 
-After cleaning data, the Incident Table is the primary table we are doing initial analysis and machine learning for in order to evaluate predictability of death as an adverse reaction when pre-existing conditions are a factor.
+## Machine Learning
+The planned method for analyzing the VAERS data through machine learning is a two-step process:
 
-The Symptoms table will need further development and may serve as an opportunity to perform unsupervised learning to see if there are any clusters based on symptom type that result in death or hospitalization.
+### Step 1: Unsupervised Learning
+The goal of unsupervised learning is to determine whether there are any patterns or clusters with the data from which insights about the data can be gained. Many data analysts will leverage machine learning to gain insights and from those insights create a supervised learning model where predictive value can be achieved. From this, we hope to answer questions such as, “is there possibly a link to death, hospitalization or life-threatening circumstances that arise because a patient has a particular allergy or is on a particular medication?”. We also believe that the symptom data might reveal a pattern or cluster of symptoms by age group, vaccine taken or dose series of the vaccine and might also be influenced by allergies or medications. So, we hope to answer the question, “is there a link to symptoms presentation to any of the aforementioned features?”
+
+Our unsupervised learning model will by the final presentation scrutinize 3 sets of data separately and merged together to evaluate for clusters. For Segment two, we are submitting the unsupervised machine learning model that evaluates demographic features, adverse outcomes (death, hospitalization or life-threatening circumstance), vaccine features and allergy data. This model resulted in finding 7 clusters of data that we will analyze further and plan our visualization around.
+
+Our second unsupervised learning model evaluated features associated with demographics, adverse outcomes (death, hospitalization or life-threatening circumstance), vaccine features and symptom data. In this case, our model found 5 clusters of data that we will further analyze and visualize during our next segment.
+
+Our last unsupervised machine learning model evaluates all of the data mentioned above: demographics, adverse outcomes (death, hospitalization or life-threatening circumstance), vaccine features, allergies and symptom data. Again, our model found 7 clusters.
+
+### Step 2: Supervised Machine Learning
+After analyzing our clusters to see if there are any links that can be correlated to outcomes, we will put the supervised machine learning models to work and see if we can predict an event outcome based on certain features. Although we have saved to the main branch our current supervised learning models, we expect to develop this effort for the next project segment submission.
 
 
- ### Machine Learning
- The Machine Learning Module utilized for our initial analysis is Supervised Learning:  Logistic Regression.  We believe further analysis of symptom data will allow for further analysis using Unsupervised Machine Learing.  Python libraries expected are:
- - pandas, 
- - numpy
- - hvplot, 
- - plotly
- - plotly.express
- - sklearn (KMeans, StandardScaler, MinMaxScaler and PCA)
+## Visualization & Story Board
+Our overall story and study of our analysis will let the user interact with the aggregated results and filter on topics that matter most to them. Our interactive dashboard will be hosted on Tableau Public and a user will be able to click through a data point to see the relevant data feeding into the analysis. 
 
- ![Machine_Learning](Machine_Learning_Model.png)
- 
- ### Visualization
- Tableau will be the primary visualization tool to present our findings.
+## The Summary
+COVID-19 vaccines help our bodies develop immunity to the virus that causes COVID-19 without us having to get the illness. Getting vaccinated is one of many steps you can take to protect yourself and others from COVID-19.  Protection from COVID-19 is critically important because for some people, COVID-19 can cause severe illness or death as seen by the data we are analyzing. 
