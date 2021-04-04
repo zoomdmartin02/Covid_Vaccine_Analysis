@@ -28,7 +28,7 @@ current medication, age and gender. Our output value here is our symptoms and we
   Our overall story and study of our analysis will let the user interact with the aggregated 
   results and filter on topics that matter most to them.
   Our interactive dashboard will be hosted on Tableau Public and a user will be able to filter through gender, 
-  age bucket and pre existing conditions to see their likely of having a serious adverse reaction.
+  age bucket and pre existing conditions to see their likelihood of having a serious adverse reaction.
 
 
 ## The Bottom Line
