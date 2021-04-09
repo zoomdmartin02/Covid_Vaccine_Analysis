@@ -1,14 +1,17 @@
+select count (*) from machinelearning_source_table
+where "Med_1" = 'MISC';
 
+select count (*) from ml_source_table
+where "Med_1" = 'Flonase';
 
-select *
-from information_schema.columns
-where table_name = 'vaersdata_raw';
+select count (*) from machinelearning_source_table;
 
-select *
-from information_schema.columns
-where table_name = 'vaersvax_raw';
+SELECT "VAERS_ID", COUNT(*)
+FROM machinelearning_source_table
+GROUP BY "VAERS_ID"
+HAVING COUNT(*) > 1;
 
---Recreating the vaerscombined_2 with the more updated data on 4/5/21
+-- Creating VAERSCOMBINED_2 (2nd time) for the machine learning model when we realized that the original file vaerscombined_2 had duplicate VAERS_ID in them.
 SELECT
 vaersdata_raw."VAERS_ID",
 vaersdata_raw."AGE_YRS",
@@ -28,14 +31,35 @@ vaersvax_raw."VAX_SITE",
 vaersvax_raw."VAX_NAME"
 INTO VAERSCOMBINED_2
 FROM vaersdata_raw
-LEFT JOIN vaersvax_raw
-ON vaersdata_raw."VAERS_ID" = vaersvax_raw."VAERS_ID";
+INNER JOIN vaersvax_raw
+ON vaersdata_raw."VAERS_ID" = vaersvax_raw."VAERS_ID"
+WHERE vaersvax_raw."VAX_TYPE" = 'COVID19'
+;
+--Deleting dups
+DELETE FROM VAERSCOMBINED_2 a USING (
+      SELECT MIN(ctid) as ctid, "VAERS_ID"
+        FROM VAERSCOMBINED_2 
+        GROUP BY "VAERS_ID" HAVING COUNT(*) > 1
+      ) b
+      WHERE a."VAERS_ID" = b."VAERS_ID" 
+      AND a.ctid <> b.ctid
+	  
+	  
+-- identifying duplicates for cleaning
+SELECT "VAERS_ID", COUNT(*)
+FROM VAERSCOMBINED_2
+GROUP BY "VAERS_ID"
+HAVING COUNT(*) > 1;
+
+-- identifying duplicates for cleaning
+SELECT "VAERS_ID", COUNT(*)
+FROM "Allergy_Table"
+GROUP BY "VAERS_ID"
+HAVING COUNT(*) > 1;
 
 
-select *
-from information_schema.columns
-where table_name = 'vaerscombined_2';
-
-
-select count(*) from vaerscombined_2
-where "DIED" = 'Y' and "VAX_TYPE" = 'COVID19';
+-- identifying duplicates for cleaning
+SELECT "VAERS_ID", COUNT(*)
+FROM "Med_Table"
+GROUP BY "VAERS_ID"
+HAVING COUNT(*) > 1;
