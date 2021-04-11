@@ -91,12 +91,25 @@ The K-Means Model addresses the problem by providing insight into groups that ha
 
 
 ### Step 2: Supervised Machine Learning
+After analyzing our clusters to see if there are any links that can be correlated to outcomes, we will put the supervised machine learning models to work and see if we can predict an event outcome based on certain features. 
 
+#### Description of Data PreProcessing
 
- - We chose to use a logistic regression model because we are trying to predict a binary outcome using a fairly limited amount of inputs. If this were a larger dataset with more features, a deep learning model may have been more applicable. As more data is processed and we add more features, we may transition to a deep learning model to accomodate these changes.  
- - We chose to split the data into 70% training data and 30% testing data. Changing these proportions had a negligible effect on our models performance, but we will continue to test and monitor these values as our model changes and adds more features.  
+#### Description of Feature Engineering, Selection and Decision-Making Process
 
-After analyzing our clusters to see if there are any links that can be correlated to outcomes, we will put the supervised machine learning models to work and see if we can predict an event outcome based on certain features. Although we have saved to the main branch our current supervised learning models, we expect to develop this effort for the next project segment submission.
+#### Description of How Data Split into Testing vs Training
+We chose to split the data into 70% training data and 30% testing data. Changing these proportions had a negligible effect on our models performance, but we will continue to test and monitor these values as our model changes and adds more features.  
+
+#### Explanation of Model Choice (Limitations and Benefits)
+We chose to use a logistic regression model because we are trying to predict a binary outcome using a fairly limited amount of inputs. If this were a larger dataset with more features, a deep learning model may have been more applicable. As more data is processed and we add more features, we may transition to a deep learning model to accomodate these changes.
+
+#### Explanation of Changes in Model Choice (if changes occurred between Seg 2 and Seg 3)
+
+#### Description of How the Model Has Been Trained So Far and Additional Training To Come
+
+#### Description of Current Accuracy Score
+
+#### How the Model Addresses the Question or Problem Being Solved
 
 
 ## Visualization & Story Board
