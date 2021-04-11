@@ -106,4 +106,4 @@ Our overall story and study of our analysis will let the user interact with the 
 COVID-19 vaccines help our bodies develop immunity to the virus that causes COVID-19 without us having to get the illness. Getting vaccinated is one of many steps you can take to protect yourself and others from COVID-19.  Protection from COVID-19 is critically important because for some people, COVID-19 can cause severe illness or death as seen by the data we are analyzing. 
 
 ### File Map
-![File_Map](Resources/file_map.png)
+![File_Map](Resources/Files_Map.png)
