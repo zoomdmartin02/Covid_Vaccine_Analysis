@@ -1,7 +1,11 @@
 ### COVID-19 Vaccine Research
 
-Our Project is about trying to predict if a person taking a COVID vaccine is going to have a serious adverse reaction or not given features such as existing allergies, 
-current medication, age and gender. Please visit our [Google Slide Presentation](https://docs.google.com/presentation/d/1jvdRTj7KpEPRe3xggcCQyRMWejOfemQR9ayRXhyVhGs/edit?usp=sharing) for more details. 
+Our Project is about trying to predict if a person taking a COVID vaccine is going to have a serious adverse reaction or not given features such as existing allergies, current medication, age and gender. To help solve this question, we will put our data set through a process of cleaning and normalizing and first run the data through an unsupervised machine learning model to determine whether there are any patterns or clusters in the data.  The clustered data will be summarized and visualized with the hope of finding trends that we can then inform our supervised machine learning model, a logistic regression to answer the question.
+
+A high level view of the project flow and progression is as follows:
+![Project_Flow](Resources/Project_Flow.png)
+
+Please visit our [Google Slide Presentation](https://docs.google.com/presentation/d/1jvdRTj7KpEPRe3xggcCQyRMWejOfemQR9ayRXhyVhGs/edit?usp=sharing) for more details. 
 
 ## Data Source
  - Our data source is from HHS Vaers website - [Data Source](https://vaers.hhs.gov/data/datasets.html?)
