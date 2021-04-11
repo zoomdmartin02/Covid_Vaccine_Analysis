@@ -121,7 +121,7 @@ The model helps address the question of what features are important in the case 
 Our overall story and study of our analysis will let the user interact with the aggregated results and filter on topics that matter most to them. Our interactive dashboard will be hosted on Tableau Public and a user will be able to click through a data point to see the relevant data feeding into the analysis. 
 
 
-[Click Here for Tableau Visualizations](https://public.tableau.com/views/Final_Project_Viz/Story1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
+[Click Here for Tableau Visualizations](https://public.tableau.com/views/Final_Project_Viz/COVID19Dashboard?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
 
 ## The Summary
 COVID-19 vaccines help our bodies develop immunity to the virus that causes COVID-19 without us having to get the illness. Getting vaccinated is one of many steps you can take to protect yourself and others from COVID-19.  Protection from COVID-19 is critically important because for some people, COVID-19 can cause severe illness or death as seen by the data we are analyzing. 
