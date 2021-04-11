@@ -5,6 +5,8 @@ Our Project is about trying to predict if a person taking a COVID vaccine is goi
 A high level view of the project flow and progression is as follows:
 ![Project_Flow](Resources/Project_Flow.png)
 
+NOTE:  This same map is provided at the bottom of the ReadMe to provide file names that should be present in the Main branch for each step in the associated project flow diagram.
+
 Please visit our [Google Slide Presentation](https://docs.google.com/presentation/d/1jvdRTj7KpEPRe3xggcCQyRMWejOfemQR9ayRXhyVhGs/edit?usp=sharing) for more details. 
 
 ## Data Source
@@ -102,3 +104,6 @@ Our overall story and study of our analysis will let the user interact with the 
 
 ## The Summary
 COVID-19 vaccines help our bodies develop immunity to the virus that causes COVID-19 without us having to get the illness. Getting vaccinated is one of many steps you can take to protect yourself and others from COVID-19.  Protection from COVID-19 is critically important because for some people, COVID-19 can cause severe illness or death as seen by the data we are analyzing. 
+
+### File Map
+![File_Map](Resources/file_map.png)
