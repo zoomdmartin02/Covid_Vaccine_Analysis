@@ -1,0 +1,1066 @@
+----------------------------------------VAERS_ID---------------------------------------- - 921602    1
+930675    1
+986004    1
+928656    1
+914315    1
+Name: VAERS_ID, dtype: int64
+----------------------------------------AGE_YRS---------------------------------------- - 41.0    613
+36.0    608
+37.0    599
+34.0    588
+39.0    584
+Name: AGE_YRS, dtype: int64
+----------------------------------------Class---------------------------------------- - 1    26140
+Name: Class, dtype: int64
+----------------------------------------SEX---------------------------------------- - F    17664
+M     8253
+U      223
+Name: SEX, dtype: int64
+----------------------------------------VAX_MANU---------------------------------------- - PFIZERBIONTECH          13867
+MODERNA                 10798
+JANSSEN                  1458
+UNKNOWN MANUFACTURER       17
+Name: VAX_MANU, dtype: int64
+----------------------------------------ADV_REACTION---------------------------------------- - N    22337
+Y     3803
+Name: ADV_REACTION, dtype: int64
+----------------------------------------MED_MULTIVITAMIN---------------------------------------- - N    25978
+Y      162
+Name: MED_MULTIVITAMIN, dtype: int64
+----------------------------------------MED_VITAMIN B---------------------------------------- - N    26140
+Name: MED_VITAMIN B, dtype: int64
+----------------------------------------MED_VITAMIN C---------------------------------------- - N    26132
+Y        8
+Name: MED_VITAMIN C, dtype: int64
+----------------------------------------MED_VITAMIN D---------------------------------------- - N    26089
+Y       51
+Name: MED_VITAMIN D, dtype: int64
+----------------------------------------MED_BIRTH CONTROL---------------------------------------- - N    26103
+Y       37
+Name: MED_BIRTH CONTROL, dtype: int64
+----------------------------------------MED_PRENATAL VITAMIN---------------------------------------- - N    26060
+Y       80
+Name: MED_PRENATAL VITAMIN, dtype: int64
+----------------------------------------MED_ALBUTEROL---------------------------------------- - N    26109
+Y       31
+Name: MED_ALBUTEROL, dtype: int64
+----------------------------------------MED_IBUPROFEN---------------------------------------- - N    26072
+Y       68
+Name: MED_IBUPROFEN, dtype: int64
+----------------------------------------MED_ACETAMINOPHEN---------------------------------------- - N    25961
+Y      179
+Name: MED_ACETAMINOPHEN, dtype: int64
+----------------------------------------MED_ASPIRIN---------------------------------------- - N    26035
+Y      105
+Name: MED_ASPIRIN, dtype: int64
+----------------------------------------MED_VELPHORO---------------------------------------- - N    26140
+Name: MED_VELPHORO, dtype: int64
+----------------------------------------MED_SINGULAIR---------------------------------------- - N    26139
+Y        1
+Name: MED_SINGULAIR, dtype: int64
+----------------------------------------MED_CITALOPRAM---------------------------------------- - N    26136
+Y        4
+Name: MED_CITALOPRAM, dtype: int64
+----------------------------------------MED_ESCITALOPRAM---------------------------------------- - N    26140
+Name: MED_ESCITALOPRAM, dtype: int64
+----------------------------------------MED_CLARITIN---------------------------------------- - N    26136
+Y        4
+Name: MED_CLARITIN, dtype: int64
+----------------------------------------MED_LEXAPRO---------------------------------------- - N    26105
+Y       35
+Name: MED_LEXAPRO, dtype: int64
+----------------------------------------MED_NORVASC---------------------------------------- - N    26128
+Y       12
+Name: MED_NORVASC, dtype: int64
+----------------------------------------MED_CELEXA---------------------------------------- - N    26129
+Y       11
+Name: MED_CELEXA, dtype: int64
+----------------------------------------MED_ZOLOFT---------------------------------------- - N    26116
+Y       24
+Name: MED_ZOLOFT, dtype: int64
+----------------------------------------MED_METFORMIN---------------------------------------- - N    25976
+Y      164
+Name: MED_METFORMIN, dtype: int64
+----------------------------------------MED_BENADRYL---------------------------------------- - N    26135
+Y        5
+Name: MED_BENADRYL, dtype: int64
+----------------------------------------MED_ARMOUR THYROID---------------------------------------- - N    26139
+Y        1
+Name: MED_ARMOUR THYROID, dtype: int64
+----------------------------------------MED_WARFARIN---------------------------------------- - N    26130
+Y       10
+Name: MED_WARFARIN, dtype: int64
+----------------------------------------MED_ADDERALL---------------------------------------- - N    26115
+Y       25
+Name: MED_ADDERALL, dtype: int64
+----------------------------------------MED_MELATONIN---------------------------------------- - N    26130
+Y       10
+Name: MED_MELATONIN, dtype: int64
+----------------------------------------MED_SYNTHROID---------------------------------------- - N    26018
+Y      122
+Name: MED_SYNTHROID, dtype: int64
+----------------------------------------MED_AMLODIPINE---------------------------------------- - N    26063
+Y       77
+Name: MED_AMLODIPINE, dtype: int64
+----------------------------------------MED_ZYRTEC---------------------------------------- - N    26129
+Y       11
+Name: MED_ZYRTEC, dtype: int64
+----------------------------------------MED_LOSARTAN---------------------------------------- - N    26049
+Y       91
+Name: MED_LOSARTAN, dtype: int64
+----------------------------------------MED_LEVOTHYROXINE---------------------------------------- - N    26028
+Y      112
+Name: MED_LEVOTHYROXINE, dtype: int64
+----------------------------------------MED_LISINOPRIL---------------------------------------- - N    25974
+Y      166
+Name: MED_LISINOPRIL, dtype: int64
+----------------------------------------MED_ATORVASTATIN---------------------------------------- - N    26079
+Y       61
+Name: MED_ATORVASTATIN, dtype: int64
+----------------------------------------MED_ATENOLOL---------------------------------------- - N    26102
+Y       38
+Name: MED_ATENOLOL, dtype: int64
+----------------------------------------MED_ELIQUIS---------------------------------------- - N    26108
+Y       32
+Name: MED_ELIQUIS, dtype: int64
+----------------------------------------MED_WELLBUTRIN---------------------------------------- - N    26127
+Y       13
+Name: MED_WELLBUTRIN, dtype: int64
+----------------------------------------MED_METOPROLOL---------------------------------------- - N    26084
+Y       56
+Name: MED_METOPROLOL, dtype: int64
+----------------------------------------MED_GABAPENTIN---------------------------------------- - N    26127
+Y       13
+Name: MED_GABAPENTIN, dtype: int64
+----------------------------------------MED_SERTRALINE---------------------------------------- - N    26114
+Y       26
+Name: MED_SERTRALINE, dtype: int64
+----------------------------------------MED_PROZAC---------------------------------------- - N    26121
+Y       19
+Name: MED_PROZAC, dtype: int64
+----------------------------------------MED_LIPITOR---------------------------------------- - N    26110
+Y       30
+Name: MED_LIPITOR, dtype: int64
+----------------------------------------MED_INSULIN---------------------------------------- - N    26100
+Y       40
+Name: MED_INSULIN, dtype: int64
+----------------------------------------MED_FLONASE---------------------------------------- - N    26137
+Y        3
+Name: MED_FLONASE, dtype: int64
+----------------------------------------MED_SIMVASTATIN---------------------------------------- - N    26120
+Y       20
+Name: MED_SIMVASTATIN, dtype: int64
+----------------------------------------MED_ALLOPURINOL---------------------------------------- - N    26129
+Y       11
+Name: MED_ALLOPURINOL, dtype: int64
+----------------------------------------MED_CYMBALTA---------------------------------------- - N    26131
+Y        9
+Name: MED_CYMBALTA, dtype: int64
+----------------------------------------MED_FLUOXETINE---------------------------------------- - N    26111
+Y       29
+Name: MED_FLUOXETINE, dtype: int64
+----------------------------------------MED_PRILOSEC---------------------------------------- - N    26129
+Y       11
+Name: MED_PRILOSEC, dtype: int64
+----------------------------------------MED_ALLEGRA---------------------------------------- - N    26130
+Y       10
+Name: MED_ALLEGRA, dtype: int64
+----------------------------------------MED_LAMICTAL---------------------------------------- - N    26136
+Y        4
+Name: MED_LAMICTAL, dtype: int64
+----------------------------------------MED_EFFEXOR---------------------------------------- - N    26133
+Y        7
+Name: MED_EFFEXOR, dtype: int64
+----------------------------------------MED_FISH OIL---------------------------------------- - N    26126
+Y       14
+Name: MED_FISH OIL, dtype: int64
+----------------------------------------MED_VYVANSE---------------------------------------- - N    26115
+Y       25
+Name: MED_VYVANSE, dtype: int64
+----------------------------------------MED_SPIRONOLACTONE---------------------------------------- - N    26133
+Y        7
+Name: MED_SPIRONOLACTONE, dtype: int64
+----------------------------------------MED_TRAMADOL---------------------------------------- - N    26134
+Y        6
+Name: MED_TRAMADOL, dtype: int64
+----------------------------------------MED_SYMBICORT---------------------------------------- - N    26136
+Y        4
+Name: MED_SYMBICORT, dtype: int64
+----------------------------------------MED_CALCIUM---------------------------------------- - N    26140
+Name: MED_CALCIUM, dtype: int64
+----------------------------------------MED_CARVEDILOL---------------------------------------- - N    26140
+Name: MED_CARVEDILOL, dtype: int64
+----------------------------------------MED_CETIRIZINE---------------------------------------- - N    26138
+Y        2
+Name: MED_CETIRIZINE, dtype: int64
+----------------------------------------MED_NEXPLANON---------------------------------------- - N    26140
+Name: MED_NEXPLANON, dtype: int64
+----------------------------------------MED_BUPROPION---------------------------------------- - N    26124
+Y       16
+Name: MED_BUPROPION, dtype: int64
+----------------------------------------MED_ADVAIR---------------------------------------- - N    26132
+Y        8
+Name: MED_ADVAIR, dtype: int64
+----------------------------------------MED_VENLAFAXINE---------------------------------------- - N    26121
+Y       19
+Name: MED_VENLAFAXINE, dtype: int64
+----------------------------------------MED_PANTOPRAZOLE---------------------------------------- - N    26118
+Y       22
+Name: MED_PANTOPRAZOLE, dtype: int64
+----------------------------------------MED_CRESTOR---------------------------------------- - N    26104
+Y       36
+Name: MED_CRESTOR, dtype: int64
+----------------------------------------MED_AMBIEN---------------------------------------- - N    26137
+Y        3
+Name: MED_AMBIEN, dtype: int64
+----------------------------------------MED_HYDROCHLOROTHIAZIDE---------------------------------------- - N    26125
+Y       15
+Name: MED_HYDROCHLOROTHIAZIDE, dtype: int64
+----------------------------------------MED_LEVOTHROXIN---------------------------------------- - N    26140
+Name: MED_LEVOTHROXIN, dtype: int64
+----------------------------------------MED_APIXABAN---------------------------------------- - N    26140
+Name: MED_APIXABAN, dtype: int64
+----------------------------------------MED_ZINC---------------------------------------- - N    26136
+Y        4
+Name: MED_ZINC, dtype: int64
+----------------------------------------MED_NEXIUM---------------------------------------- - N    26137
+Y        3
+Name: MED_NEXIUM, dtype: int64
+----------------------------------------MED_LASIX---------------------------------------- - N    26139
+Y        1
+Name: MED_LASIX, dtype: int64
+----------------------------------------MED_PREDNISONE---------------------------------------- - N    26120
+Y       20
+Name: MED_PREDNISONE, dtype: int64
+----------------------------------------MED_SPRINTEC---------------------------------------- - N    26139
+Y        1
+Name: MED_SPRINTEC, dtype: int64
+----------------------------------------MED_NUVARINE---------------------------------------- - N    26140
+Name: MED_NUVARINE, dtype: int64
+----------------------------------------MED_FAMOTIDINE---------------------------------------- - N    26133
+Y        7
+Name: MED_FAMOTIDINE, dtype: int64
+----------------------------------------MED_ESTROGEN---------------------------------------- - N    26138
+Y        2
+Name: MED_ESTROGEN, dtype: int64
+----------------------------------------MED_COREG---------------------------------------- - N    26134
+Y        6
+Name: MED_COREG, dtype: int64
+----------------------------------------MED_BYSTOLIC---------------------------------------- - N    26121
+Y       19
+Name: MED_BYSTOLIC, dtype: int64
+----------------------------------------MED_MELOXICAM---------------------------------------- - N    26139
+Y        1
+Name: MED_MELOXICAM, dtype: int64
+----------------------------------------MED_PROTONIX---------------------------------------- - N    26128
+Y       12
+Name: MED_PROTONIX, dtype: int64
+----------------------------------------MED_MAGNESIUM---------------------------------------- - N    26140
+Name: MED_MAGNESIUM, dtype: int64
+----------------------------------------MED_MONTELUKAST---------------------------------------- - N    26138
+Y        2
+Name: MED_MONTELUKAST, dtype: int64
+----------------------------------------MED_ROSUVASTATIN---------------------------------------- - N    26110
+Y       30
+Name: MED_ROSUVASTATIN, dtype: int64
+----------------------------------------MED_PRAVASTATIN---------------------------------------- - N    26127
+Y       13
+Name: MED_PRAVASTATIN, dtype: int64
+----------------------------------------MED_PEPSID---------------------------------------- - N    26140
+Name: MED_PEPSID, dtype: int64
+----------------------------------------MED_XARELTO---------------------------------------- - N    26123
+Y       17
+Name: MED_XARELTO, dtype: int64
+----------------------------------------MED_BALLOFEN---------------------------------------- - N    26140
+Name: MED_BALLOFEN, dtype: int64
+----------------------------------------MED_CASIRIVIMAB---------------------------------------- - N    26116
+Y       24
+Name: MED_CASIRIVIMAB, dtype: int64
+----------------------------------------MED_LEVOXYL---------------------------------------- - N    26132
+Y        8
+Name: MED_LEVOXYL, dtype: int64
+----------------------------------------MED_ESTRADIOL---------------------------------------- - N    26137
+Y        3
+Name: MED_ESTRADIOL, dtype: int64
+----------------------------------------MED_LITHIUM---------------------------------------- - N    26133
+Y        7
+Name: MED_LITHIUM, dtype: int64
+----------------------------------------MED_XANAX---------------------------------------- - N    26136
+Y        4
+Name: MED_XANAX, dtype: int64
+----------------------------------------MED_NONE---------------------------------------- - Y    19876
+N     6264
+Name: MED_NONE, dtype: int64
+----------------------------------------ALLERGY_PENICILLIN---------------------------------------- - N    25942
+Y      198
+Name: ALLERGY_PENICILLIN, dtype: int64
+----------------------------------------ALLERGY_SULFA---------------------------------------- - N    26068
+Y       72
+Name: ALLERGY_SULFA, dtype: int64
+----------------------------------------ALLERGY_LATEX---------------------------------------- - N    26113
+Y       27
+Name: ALLERGY_LATEX, dtype: int64
+----------------------------------------ALLERGY_CODEIN---------------------------------------- - N    26124
+Y       16
+Name: ALLERGY_CODEIN, dtype: int64
+----------------------------------------ALLERGY_AMOXICILLIN---------------------------------------- - N    26111
+Y       29
+Name: ALLERGY_AMOXICILLIN, dtype: int64
+----------------------------------------ALLERGY_ERYTHROMYCIN---------------------------------------- - N    26135
+Y        5
+Name: ALLERGY_ERYTHROMYCIN, dtype: int64
+----------------------------------------ALLERGY_ASPIRIN---------------------------------------- - N    26108
+Y       32
+Name: ALLERGY_ASPIRIN, dtype: int64
+----------------------------------------ALLERGY_BACTRIM---------------------------------------- - N    26137
+Y        3
+Name: ALLERGY_BACTRIM, dtype: int64
+----------------------------------------ALLERGY_SEASONAL---------------------------------------- - N    26112
+Y       28
+Name: ALLERGY_SEASONAL, dtype: int64
+----------------------------------------ALLERGY_AUGMENTIN---------------------------------------- - N    26136
+Y        4
+Name: ALLERGY_AUGMENTIN, dtype: int64
+----------------------------------------ALLERGY_CIPROFLOXACIN---------------------------------------- - N    26128
+Y       12
+Name: ALLERGY_CIPROFLOXACIN, dtype: int64
+----------------------------------------ALLERGY_LISINOPRIL---------------------------------------- - N    26124
+Y       16
+Name: ALLERGY_LISINOPRIL, dtype: int64
+----------------------------------------ALLERGY_IODINE---------------------------------------- - N    26123
+Y       17
+Name: ALLERGY_IODINE, dtype: int64
+----------------------------------------ALLERGY_KEFLEX---------------------------------------- - N    26136
+Y        4
+Name: ALLERGY_KEFLEX, dtype: int64
+----------------------------------------ALLERGY_GLUTEN---------------------------------------- - N    26137
+Y        3
+Name: ALLERGY_GLUTEN, dtype: int64
+----------------------------------------ALLERGY_BEE---------------------------------------- - N    26123
+Y       17
+Name: ALLERGY_BEE, dtype: int64
+----------------------------------------ALLERGY_WASP---------------------------------------- - N    26140
+Name: ALLERGY_WASP, dtype: int64
+----------------------------------------ALLERGY_DEXYCYCLINE---------------------------------------- - N    26140
+Name: ALLERGY_DEXYCYCLINE, dtype: int64
+----------------------------------------ALLERGY_LEVAQUIN---------------------------------------- - N    26138
+Y        2
+Name: ALLERGY_LEVAQUIN, dtype: int64
+----------------------------------------ALLERGY_CECLOR---------------------------------------- - N    26132
+Y        8
+Name: ALLERGY_CECLOR, dtype: int64
+----------------------------------------ALLERGY_PERCOCET---------------------------------------- - N    26140
+Name: ALLERGY_PERCOCET, dtype: int64
+----------------------------------------ALLERGY_IBUPROFEN---------------------------------------- - N    26132
+Y        8
+Name: ALLERGY_IBUPROFEN, dtype: int64
+----------------------------------------ALLERGY_DEMORAL---------------------------------------- - N    26140
+Name: ALLERGY_DEMORAL, dtype: int64
+----------------------------------------ALLERGY_NSAIDS---------------------------------------- - N    26139
+Y        1
+Name: ALLERGY_NSAIDS, dtype: int64
+----------------------------------------ALLERGY_COMPAZINE---------------------------------------- - N    26138
+Y        2
+Name: ALLERGY_COMPAZINE, dtype: int64
+----------------------------------------ALLERGY_EGGS---------------------------------------- - N    26137
+Y        3
+Name: ALLERGY_EGGS, dtype: int64
+----------------------------------------ALLERGY_NICKEL---------------------------------------- - N    26139
+Y        1
+Name: ALLERGY_NICKEL, dtype: int64
+----------------------------------------ALLERGY_REGLAN---------------------------------------- - N    26139
+Y        1
+Name: ALLERGY_REGLAN, dtype: int64
+----------------------------------------ALLERGY_CLINDAMYCIN---------------------------------------- - N    26139
+Y        1
+Name: ALLERGY_CLINDAMYCIN, dtype: int64
+----------------------------------------ALLERGY_HYDROCODONE---------------------------------------- - N    26140
+Name: ALLERGY_HYDROCODONE, dtype: int64
+----------------------------------------ALLERGY_CONTRAST DYE---------------------------------------- - N    26136
+Y        4
+Name: ALLERGY_CONTRAST DYE, dtype: int64
+----------------------------------------ALLERGY_TETRACYCLINE---------------------------------------- - N    26140
+Name: ALLERGY_TETRACYCLINE, dtype: int64
+----------------------------------------ALLERGY_AZITHROMYCIN---------------------------------------- - N    26134
+Y        6
+Name: ALLERGY_AZITHROMYCIN, dtype: int64
+----------------------------------------ALLERGY_DAIRY---------------------------------------- - N    26136
+Y        4
+Name: ALLERGY_DAIRY, dtype: int64
+----------------------------------------ALLERGY_NUTS---------------------------------------- - N    26139
+Y        1
+Name: ALLERGY_NUTS, dtype: int64
+----------------------------------------ALLERGY_PEANUTS---------------------------------------- - N    26140
+Name: ALLERGY_PEANUTS, dtype: int64
+----------------------------------------ALLERGY_BIAXIN---------------------------------------- - N    26140
+Name: ALLERGY_BIAXIN, dtype: int64
+----------------------------------------ALLERGY_ACE INHIBITORS---------------------------------------- - N    26132
+Y        8
+Name: ALLERGY_ACE INHIBITORS, dtype: int64
+----------------------------------------ALLERGY_VANCOMYCIN---------------------------------------- - N    26139
+Y        1
+Name: ALLERGY_VANCOMYCIN, dtype: int64
+----------------------------------------ALLERGY_CEPULEXIN---------------------------------------- - N    26140
+Name: ALLERGY_CEPULEXIN, dtype: int64
+----------------------------------------ALLERGY_VICODIN---------------------------------------- - N    26139
+Y        1
+Name: ALLERGY_VICODIN, dtype: int64
+----------------------------------------ALLERGY_STRAWBERRIES---------------------------------------- - N    26139
+Y        1
+Name: ALLERGY_STRAWBERRIES, dtype: int64
+----------------------------------------ALLERGY_NAPROXIN---------------------------------------- - N    26140
+Name: ALLERGY_NAPROXIN, dtype: int64
+----------------------------------------ALLERGY_DILAVIDID---------------------------------------- - N    26140
+Name: ALLERGY_DILAVIDID, dtype: int64
+----------------------------------------ALLERGY_TRMODOL---------------------------------------- - N    26140
+Name: ALLERGY_TRMODOL, dtype: int64
+----------------------------------------ALLERGY_AMPICILLIN---------------------------------------- - N    26132
+Y        8
+Name: ALLERGY_AMPICILLIN, dtype: int64
+----------------------------------------ALLERGY_FLAGYL---------------------------------------- - N    26139
+Y        1
+Name: ALLERGY_FLAGYL, dtype: int64
+----------------------------------------ALLERGY_CEPHALOSPORIN---------------------------------------- - N    26134
+Y        6
+Name: ALLERGY_CEPHALOSPORIN, dtype: int64
+----------------------------------------ALLERGY_NEOSPORIN---------------------------------------- - N    26136
+Y        4
+Name: ALLERGY_NEOSPORIN, dtype: int64
+----------------------------------------ALLERGY_MACRO B10---------------------------------------- - N    26140
+Name: ALLERGY_MACRO B10, dtype: int64
+----------------------------------------ALLERGY_ACETAMINOPHEN---------------------------------------- - N    26140
+Name: ALLERGY_ACETAMINOPHEN, dtype: int64
+----------------------------------------ALLERGY_BENEDRYL---------------------------------------- - N    26140
+Name: ALLERGY_BENEDRYL, dtype: int64
+----------------------------------------ALLERGY_ADHESIVE---------------------------------------- - N    26138
+Y        2
+Name: ALLERGY_ADHESIVE, dtype: int64
+----------------------------------------ALLERGY_OXYCODONE---------------------------------------- - N    26140
+Name: ALLERGY_OXYCODONE, dtype: int64
+----------------------------------------ALLERGY_CELEBREX---------------------------------------- - N    26139
+Y        1
+Name: ALLERGY_CELEBREX, dtype: int64
+----------------------------------------ALLERGY_WHEAT---------------------------------------- - N    26140
+Name: ALLERGY_WHEAT, dtype: int64
+----------------------------------------ALLERGY_SEPTRA---------------------------------------- - N    26138
+Y        2
+Name: ALLERGY_SEPTRA, dtype: int64
+----------------------------------------ALLERGY_KIWI---------------------------------------- - N    26138
+Y        2
+Name: ALLERGY_KIWI, dtype: int64
+----------------------------------------ALLERGY_AVELOX---------------------------------------- - N    26137
+Y        3
+Name: ALLERGY_AVELOX, dtype: int64
+----------------------------------------ALLERGY_AMLODIPINE---------------------------------------- - N    26139
+Y        1
+Name: ALLERGY_AMLODIPINE, dtype: int64
+----------------------------------------ALLERGY_IMITREX---------------------------------------- - N    26139
+Y        1
+Name: ALLERGY_IMITREX, dtype: int64
+----------------------------------------ALLERGY_MINOCYCLINE---------------------------------------- - N    26140
+Name: ALLERGY_MINOCYCLINE, dtype: int64
+----------------------------------------ALLERGY_PHENERGAN---------------------------------------- - N    26140
+Name: ALLERGY_PHENERGAN, dtype: int64
+----------------------------------------ALLERGY_METFORMIN---------------------------------------- - N    26140
+Name: ALLERGY_METFORMIN, dtype: int64
+----------------------------------------ALLERGY_BANANA---------------------------------------- - N    26138
+Y        2
+Name: ALLERGY_BANANA, dtype: int64
+----------------------------------------ALLERGY_FENTANYL---------------------------------------- - N    26140
+Name: ALLERGY_FENTANYL, dtype: int64
+----------------------------------------ALLERGY_ROCEPHIN---------------------------------------- - N    26140
+Name: ALLERGY_ROCEPHIN, dtype: int64
+----------------------------------------ALLERGY_SOY---------------------------------------- - N    26140
+Name: ALLERGY_SOY, dtype: int64
+----------------------------------------ALLERGY_ZITHROMAX---------------------------------------- - N    26140
+Name: ALLERGY_ZITHROMAX, dtype: int64
+----------------------------------------ALLERGY_LORTAB---------------------------------------- - N    26140
+Name: ALLERGY_LORTAB, dtype: int64
+----------------------------------------ALLERGY_MOTRIN---------------------------------------- - N    26131
+Y        9
+Name: ALLERGY_MOTRIN, dtype: int64
+----------------------------------------ALLERGY_LIPITOR---------------------------------------- - N    26139
+Y        1
+Name: ALLERGY_LIPITOR, dtype: int64
+----------------------------------------ALLERGY_COCONUT---------------------------------------- - N    26140
+Name: ALLERGY_COCONUT, dtype: int64
+----------------------------------------ALLERGY_LIDOCAINE---------------------------------------- - N    26138
+Y        2
+Name: ALLERGY_LIDOCAINE, dtype: int64
+----------------------------------------ALLERGY_NIACIN---------------------------------------- - N    26140
+Name: ALLERGY_NIACIN, dtype: int64
+----------------------------------------ALLERGY_AVACADO---------------------------------------- - N    26140
+Name: ALLERGY_AVACADO, dtype: int64
+----------------------------------------ALLERGY_MUSHROOMS---------------------------------------- - N    26140
+Name: ALLERGY_MUSHROOMS, dtype: int64
+----------------------------------------ALLERGY_MANGO---------------------------------------- - N    26137
+Y        3
+Name: ALLERGY_MANGO, dtype: int64
+----------------------------------------ALLERGY_LYRICA---------------------------------------- - N    26140
+Name: ALLERGY_LYRICA, dtype: int64
+----------------------------------------ALLERGY_LEVOFLOXACIN---------------------------------------- - N    26137
+Y        3
+Name: ALLERGY_LEVOFLOXACIN, dtype: int64
+----------------------------------------ALLERGY_BACTRIM DS---------------------------------------- - N    26140
+Name: ALLERGY_BACTRIM DS, dtype: int64
+----------------------------------------ALLERGY_MOLD---------------------------------------- - N    26140
+Name: ALLERGY_MOLD, dtype: int64
+----------------------------------------ALLERGY_PREDNISONE---------------------------------------- - N    26140
+Name: ALLERGY_PREDNISONE, dtype: int64
+----------------------------------------ALLERGY_LAMOTRIGINE---------------------------------------- - N    26140
+Name: ALLERGY_LAMOTRIGINE, dtype: int64
+----------------------------------------ALLERGY_CITALOPRAM---------------------------------------- - N    26140
+Name: ALLERGY_CITALOPRAM, dtype: int64
+----------------------------------------ALLERGY_HYDROCHLORO THIAZIDE---------------------------------------- - N    26140
+Name: ALLERGY_HYDROCHLORO THIAZIDE, dtype: int64
+----------------------------------------ALLERGY_WELLBUTRIN---------------------------------------- - N    26140
+Name: ALLERGY_WELLBUTRIN, dtype: int64
+----------------------------------------ALLERGY_METOPROLOL---------------------------------------- - N    26140
+Name: ALLERGY_METOPROLOL, dtype: int64
+----------------------------------------ALLERGY_GABAPENTIN---------------------------------------- - N    26139
+Y        1
+Name: ALLERGY_GABAPENTIN, dtype: int64
+----------------------------------------ALLERGY_ORANGE---------------------------------------- - N    26138
+Y        2
+Name: ALLERGY_ORANGE, dtype: int64
+----------------------------------------ALLERGY_BETADINE---------------------------------------- - N    26140
+Name: ALLERGY_BETADINE, dtype: int64
+----------------------------------------ALLERGY_TORADOL---------------------------------------- - N    26140
+Name: ALLERGY_TORADOL, dtype: int64
+----------------------------------------ALLERGY_BUTRANS PATCH---------------------------------------- - N    26140
+Name: ALLERGY_BUTRANS PATCH, dtype: int64
+----------------------------------------ALLERGY_RED MEAT---------------------------------------- - N    26140
+Name: ALLERGY_RED MEAT, dtype: int64
+----------------------------------------ALLERGY_PEACHES---------------------------------------- - N    26139
+Y        1
+Name: ALLERGY_PEACHES, dtype: int64
+----------------------------------------ALLERGY_MORPHINE---------------------------------------- - N    26123
+Y       17
+Name: ALLERGY_MORPHINE, dtype: int64
+----------------------------------------ALLERGY_ATORVASTATIN---------------------------------------- - N    26136
+Y        4
+Name: ALLERGY_ATORVASTATIN, dtype: int64
+----------------------------------------ALLERGY_TETANUS---------------------------------------- - N    26136
+Y        4
+Name: ALLERGY_TETANUS, dtype: int64
+----------------------------------------ALLERGY_ZOFRAN---------------------------------------- - N    26140
+Name: ALLERGY_ZOFRAN, dtype: int64
+----------------------------------------ALLERGY_CHOCOLATE---------------------------------------- - N    26140
+Name: ALLERGY_CHOCOLATE, dtype: int64
+----------------------------------------ALLERGY_SEAFOOD---------------------------------------- - N    26061
+Y       79
+Name: ALLERGY_SEAFOOD, dtype: int64
+----------------------------------------ALLERGY_GRASS---------------------------------------- - N    26140
+Name: ALLERGY_GRASS, dtype: int64
+----------------------------------------ALLERGY_DARVOCET---------------------------------------- - N    26140
+Name: ALLERGY_DARVOCET, dtype: int64
+----------------------------------------ALLERGY_CORN---------------------------------------- - N    26140
+Name: ALLERGY_CORN, dtype: int64
+----------------------------------------ALLERGY_EPINEPHRINE---------------------------------------- - N    26140
+Name: ALLERGY_EPINEPHRINE, dtype: int64
+----------------------------------------ALLERGY_THIMEROSAL---------------------------------------- - N    26140
+Name: ALLERGY_THIMEROSAL, dtype: int64
+----------------------------------------ALLERGY_RASPBERRIES---------------------------------------- - N    26138
+Y        2
+Name: ALLERGY_RASPBERRIES, dtype: int64
+----------------------------------------ALLERGY_TOMATO---------------------------------------- - N    26140
+Name: ALLERGY_TOMATO, dtype: int64
+----------------------------------------ALLERGY_HYDROMORPHONE---------------------------------------- - N    26140
+Name: ALLERGY_HYDROMORPHONE, dtype: int64
+----------------------------------------ALLERGY_APPLE---------------------------------------- - N    26139
+Y        1
+Name: ALLERGY_APPLE, dtype: int64
+----------------------------------------ALLERGY_TOPAMAX---------------------------------------- - N    26140
+Name: ALLERGY_TOPAMAX, dtype: int64
+----------------------------------------ALLERGY_CEFTRIAXONE---------------------------------------- - N    26140
+Name: ALLERGY_CEFTRIAXONE, dtype: int64
+----------------------------------------ALLERGY_CINNAMON---------------------------------------- - N    26140
+Name: ALLERGY_CINNAMON, dtype: int64
+----------------------------------------ALLERGY_PROZAK---------------------------------------- - N    26140
+Name: ALLERGY_PROZAK, dtype: int64
+----------------------------------------ALLERGY_QUINOLONES---------------------------------------- - N    26139
+Y        1
+Name: ALLERGY_QUINOLONES, dtype: int64
+----------------------------------------ALLERGY_CHLORHEXIDINE---------------------------------------- - N    26140
+Name: ALLERGY_CHLORHEXIDINE, dtype: int64
+----------------------------------------ALLERGY_CYMBALTA---------------------------------------- - N    26137
+Y        3
+Name: ALLERGY_CYMBALTA, dtype: int64
+----------------------------------------ALLERGY_MELOXICAM---------------------------------------- - N    26140
+Name: ALLERGY_MELOXICAM, dtype: int64
+----------------------------------------ALLERGY_NONE---------------------------------------- - Y    24055
+N     2085
+Name: ALLERGY_NONE, dtype: int64
+----------------------------------------SYMPTOM_CHILLS---------------------------------------- - N    23692
+Y     2448
+Name: SYMPTOM_CHILLS, dtype: int64
+----------------------------------------SYMPTOM_DIZZINESS---------------------------------------- - N    24656
+Y     1484
+Name: SYMPTOM_DIZZINESS, dtype: int64
+----------------------------------------SYMPTOM_ARTHRALGIA---------------------------------------- - N    25065
+Y     1075
+Name: SYMPTOM_ARTHRALGIA, dtype: int64
+----------------------------------------SYMPTOM_HEADACHE---------------------------------------- - N    24927
+Y     1213
+Name: SYMPTOM_HEADACHE, dtype: int64
+----------------------------------------SYMPTOM_FATIGUE---------------------------------------- - N    25086
+Y     1054
+Name: SYMPTOM_FATIGUE, dtype: int64
+----------------------------------------SYMPTOM_ERYTHEMA---------------------------------------- - N    24872
+Y     1268
+Name: SYMPTOM_ERYTHEMA, dtype: int64
+----------------------------------------SYMPTOM_ASTHENIA---------------------------------------- - N    25464
+Y      676
+Name: SYMPTOM_ASTHENIA, dtype: int64
+----------------------------------------SYMPTOM_DEATH---------------------------------------- - N    25426
+Y      714
+Name: SYMPTOM_DEATH, dtype: int64
+----------------------------------------SYMPTOM_COVID-19---------------------------------------- - N    25693
+Y      447
+Name: SYMPTOM_COVID-19, dtype: int64
+----------------------------------------SYMPTOM_PYREXIA---------------------------------------- - N    25699
+Y      441
+Name: SYMPTOM_PYREXIA, dtype: int64
+----------------------------------------SYMPTOM_INJECTION SITE PAIN---------------------------------------- - N    25748
+Y      392
+Name: SYMPTOM_INJECTION SITE PAIN, dtype: int64
+----------------------------------------SYMPTOM_PRURITUS---------------------------------------- - N    25747
+Y      393
+Name: SYMPTOM_PRURITUS, dtype: int64
+----------------------------------------SYMPTOM_RASH---------------------------------------- - N    25777
+Y      363
+Name: SYMPTOM_RASH, dtype: int64
+----------------------------------------SYMPTOM_PAIN IN EXTREMITY---------------------------------------- - N    25893
+Y      247
+Name: SYMPTOM_PAIN IN EXTREMITY, dtype: int64
+----------------------------------------SYMPTOM_PAIN---------------------------------------- - N    24150
+Y     1990
+Name: SYMPTOM_PAIN, dtype: int64
+----------------------------------------SYMPTOM_CHEST DISCOMFORT---------------------------------------- - N    26140
+Name: SYMPTOM_CHEST DISCOMFORT, dtype: int64
+----------------------------------------SYMPTOM_NAUSEA---------------------------------------- - N    25858
+Y      282
+Name: SYMPTOM_NAUSEA, dtype: int64
+----------------------------------------SYMPTOM_DYSPNOEA---------------------------------------- - N    25812
+Y      328
+Name: SYMPTOM_DYSPNOEA, dtype: int64
+----------------------------------------SYMPTOM_BLOOD PRESSURE INCREASED---------------------------------------- - N    25882
+Y      258
+Name: SYMPTOM_BLOOD PRESSURE INCREASED, dtype: int64
+----------------------------------------SYMPTOM_COUGH---------------------------------------- - N    25858
+Y      282
+Name: SYMPTOM_COUGH, dtype: int64
+----------------------------------------SYMPTOM_ANXIETY---------------------------------------- - N    25860
+Y      280
+Name: SYMPTOM_ANXIETY, dtype: int64
+----------------------------------------SYMPTOM_BODY TEMPERATURE INCREASED---------------------------------------- - N    25894
+Y      246
+Name: SYMPTOM_BODY TEMPERATURE INCREASED, dtype: int64
+----------------------------------------SYMPTOM_ABDOMINAL PAIN---------------------------------------- - N    25768
+Y      372
+Name: SYMPTOM_ABDOMINAL PAIN, dtype: int64
+----------------------------------------SYMPTOM_CHEST PAIN---------------------------------------- - N    25959
+Y      181
+Name: SYMPTOM_CHEST PAIN, dtype: int64
+----------------------------------------SYMPTOM_LYMPHADENOPATHY---------------------------------------- - N    25958
+Y      182
+Name: SYMPTOM_LYMPHADENOPATHY, dtype: int64
+----------------------------------------SYMPTOM_PARAESTHESIA---------------------------------------- - N    25829
+Y      311
+Name: SYMPTOM_PARAESTHESIA, dtype: int64
+----------------------------------------SYMPTOM_AXILLARY PAIN---------------------------------------- - N    26073
+Y       67
+Name: SYMPTOM_AXILLARY PAIN, dtype: int64
+----------------------------------------SYMPTOM_FLUSHING---------------------------------------- - N    25971
+Y      169
+Name: SYMPTOM_FLUSHING, dtype: int64
+----------------------------------------SYMPTOM_URTICARIA---------------------------------------- - N    26013
+Y      127
+Name: SYMPTOM_URTICARIA, dtype: int64
+----------------------------------------SYMPTOM_CONDITION AGGRAVATED---------------------------------------- - N    26011
+Y      129
+Name: SYMPTOM_CONDITION AGGRAVATED, dtype: int64
+----------------------------------------SYMPTOM_ANAPHYLACTIC REACTION---------------------------------------- - N    26015
+Y      125
+Name: SYMPTOM_ANAPHYLACTIC REACTION, dtype: int64
+----------------------------------------SYMPTOM_FEELING HOT---------------------------------------- - N    26003
+Y      137
+Name: SYMPTOM_FEELING HOT, dtype: int64
+----------------------------------------SYMPTOM_DYSGEUSIA---------------------------------------- - N    26002
+Y      138
+Name: SYMPTOM_DYSGEUSIA, dtype: int64
+----------------------------------------SYMPTOM_BURNING SENSATION---------------------------------------- - N    26058
+Y       82
+Name: SYMPTOM_BURNING SENSATION, dtype: int64
+----------------------------------------SYMPTOM_AGEUSIA---------------------------------------- - N    26012
+Y      128
+Name: SYMPTOM_AGEUSIA, dtype: int64
+----------------------------------------SYMPTOM_VOMITING---------------------------------------- - N    26038
+Y      102
+Name: SYMPTOM_VOMITING, dtype: int64
+----------------------------------------SYMPTOM_FEELING ABNORMAL---------------------------------------- - N    26052
+Y       88
+Name: SYMPTOM_FEELING ABNORMAL, dtype: int64
+----------------------------------------SYMPTOM_FACIAL PARALYSIS---------------------------------------- - N    26054
+Y       86
+Name: SYMPTOM_FACIAL PARALYSIS, dtype: int64
+----------------------------------------SYMPTOM_PARESTHESIA ORAL---------------------------------------- - N    26140
+Name: SYMPTOM_PARESTHESIA ORAL, dtype: int64
+----------------------------------------SYMPTOM_MALAISE---------------------------------------- - N    26048
+Y       92
+Name: SYMPTOM_MALAISE, dtype: int64
+----------------------------------------SYMPTOM_INJECTION SITE PRURITUS---------------------------------------- - N    26098
+Y       42
+Name: SYMPTOM_INJECTION SITE PRURITUS, dtype: int64
+----------------------------------------SYMPTOM_INJECTION SITE RASH---------------------------------------- - N    26088
+Y       52
+Name: SYMPTOM_INJECTION SITE RASH, dtype: int64
+----------------------------------------SYMPTOM_DYSPHAGIA---------------------------------------- - N    26066
+Y       74
+Name: SYMPTOM_DYSPHAGIA, dtype: int64
+----------------------------------------SYMPTOM_HEART RATE INCREASED---------------------------------------- - N    26050
+Y       90
+Name: SYMPTOM_HEART RATE INCREASED, dtype: int64
+----------------------------------------SYMPTOM_HYPOAESTHESIA ORAL---------------------------------------- - N    26056
+Y       84
+Name: SYMPTOM_HYPOAESTHESIA ORAL, dtype: int64
+----------------------------------------SYMPTOM_PALPITATIONS---------------------------------------- - N    26060
+Y       80
+Name: SYMPTOM_PALPITATIONS, dtype: int64
+----------------------------------------SYMPTOM_CEREBROVASCULAR ACCIDENT---------------------------------------- - N    26067
+Y       73
+Name: SYMPTOM_CEREBROVASCULAR ACCIDENT, dtype: int64
+----------------------------------------SYMPTOM_ATRIAL FIBRILLATION---------------------------------------- - N    26069
+Y       71
+Name: SYMPTOM_ATRIAL FIBRILLATION, dtype: int64
+----------------------------------------SYMPTOM_INJECTION SITE SWELLING---------------------------------------- - N    26129
+Y       11
+Name: SYMPTOM_INJECTION SITE SWELLING, dtype: int64
+----------------------------------------SYMPTOM_HYPERHIDROSIS---------------------------------------- - N    26048
+Y       92
+Name: SYMPTOM_HYPERHIDROSIS, dtype: int64
+----------------------------------------SYMPTOM_LIP SWELLING---------------------------------------- - N    26135
+Y        5
+Name: SYMPTOM_LIP SWELLING, dtype: int64
+----------------------------------------SYMPTOM_CELLULITIS---------------------------------------- - N    26054
+Y       86
+Name: SYMPTOM_CELLULITIS, dtype: int64
+----------------------------------------SYMPTOM_VACCINATION SITE PAIN---------------------------------------- - N    26083
+Y       57
+Name: SYMPTOM_VACCINATION SITE PAIN, dtype: int64
+----------------------------------------SYMPTOM_LYMPH NOE PAIN---------------------------------------- - N    26140
+Name: SYMPTOM_LYMPH NOE PAIN, dtype: int64
+----------------------------------------SYMPTOM_BALANCE DISORDER---------------------------------------- - N    26070
+Y       70
+Name: SYMPTOM_BALANCE DISORDER, dtype: int64
+----------------------------------------SYMPTOM_HERPES ZOSTER---------------------------------------- - N    26063
+Y       77
+Name: SYMPTOM_HERPES ZOSTER, dtype: int64
+----------------------------------------SYMPTOM_COLD SWEAT---------------------------------------- - N    26066
+Y       74
+Name: SYMPTOM_COLD SWEAT, dtype: int64
+----------------------------------------SYMPTOM_CARDIAC ARREST---------------------------------------- - N    26078
+Y       62
+Name: SYMPTOM_CARDIAC ARREST, dtype: int64
+----------------------------------------SYMPTOM_ANGIODEMA---------------------------------------- - N    26140
+Name: SYMPTOM_ANGIODEMA, dtype: int64
+----------------------------------------SYMPTOM_IMMEDIATE POST-INJECTION REACTION---------------------------------------- - N    26079
+Y       61
+Name: SYMPTOM_IMMEDIATE POST-INJECTION REACTION, dtype: int64
+----------------------------------------SYMPTOM_DISCOMFORT---------------------------------------- - N    26121
+Y       19
+Name: SYMPTOM_DISCOMFORT, dtype: int64
+----------------------------------------SYMPTOM_DECREASED APPETITE---------------------------------------- - N    26087
+Y       53
+Name: SYMPTOM_DECREASED APPETITE, dtype: int64
+----------------------------------------SYMPTOM_INJECTION SITE REACTION---------------------------------------- - N    26089
+Y       51
+Name: SYMPTOM_INJECTION SITE REACTION, dtype: int64
+----------------------------------------SYMPTOM_APHASIA---------------------------------------- - N    26091
+Y       49
+Name: SYMPTOM_APHASIA, dtype: int64
+----------------------------------------SYMPTOM_TACHYCARDIA---------------------------------------- - N    26077
+Y       63
+Name: SYMPTOM_TACHYCARDIA, dtype: int64
+----------------------------------------SYMPTOM_BELL'S PALSY---------------------------------------- - N    26076
+Y       64
+Name: SYMPTOM_BELL'S PALSY, dtype: int64
+----------------------------------------SYMPTOM_TREMOR---------------------------------------- - N    26087
+Y       53
+Name: SYMPTOM_TREMOR, dtype: int64
+----------------------------------------SYMPTOM_THROAT IRRITATION---------------------------------------- - N    26097
+Y       43
+Name: SYMPTOM_THROAT IRRITATION, dtype: int64
+----------------------------------------SYMPTOM_PERIPHERAL SWELLING---------------------------------------- - N    26138
+Y        2
+Name: SYMPTOM_PERIPHERAL SWELLING, dtype: int64
+----------------------------------------SYMPTOM_OROPHARYNGEAL PAIN---------------------------------------- - N    26109
+Y       31
+Name: SYMPTOM_OROPHARYNGEAL PAIN, dtype: int64
+----------------------------------------SYMPTOM_CONFUSIONAL STATE---------------------------------------- - N    26092
+Y       48
+Name: SYMPTOM_CONFUSIONAL STATE, dtype: int64
+----------------------------------------SYMPTOM_INJECTION SITE INDURATION---------------------------------------- - N    26099
+Y       41
+Name: SYMPTOM_INJECTION SITE INDURATION, dtype: int64
+----------------------------------------SYMPTOM_THROAT TIGHTNESS---------------------------------------- - N    26098
+Y       42
+Name: SYMPTOM_THROAT TIGHTNESS, dtype: int64
+----------------------------------------SYMPTOM_FEELING COLD---------------------------------------- - N    26089
+Y       51
+Name: SYMPTOM_FEELING COLD, dtype: int64
+----------------------------------------SYMPTOM_BLOOD CLUCOSE INCREASED---------------------------------------- - N    26140
+Name: SYMPTOM_BLOOD CLUCOSE INCREASED, dtype: int64
+----------------------------------------SYMPTOM_INJECTED LIMB MOBILITY DECREASED---------------------------------------- - N    26100
+Y       40
+Name: SYMPTOM_INJECTED LIMB MOBILITY DECREASED, dtype: int64
+----------------------------------------SYMPTOM_MIGRAINE---------------------------------------- - N    26107
+Y       33
+Name: SYMPTOM_MIGRAINE, dtype: int64
+----------------------------------------SYMPTOM_CONTUSION---------------------------------------- - N    26106
+Y       34
+Name: SYMPTOM_CONTUSION, dtype: int64
+----------------------------------------SYMPTOM_DRY MOUTH---------------------------------------- - N    26102
+Y       38
+Name: SYMPTOM_DRY MOUTH, dtype: int64
+----------------------------------------SYMPTOM_IMPAIRED WORK ABILITY---------------------------------------- - N    26097
+Y       43
+Name: SYMPTOM_IMPAIRED WORK ABILITY, dtype: int64
+----------------------------------------SYMPTOM_BLISTER---------------------------------------- - N    26094
+Y       46
+Name: SYMPTOM_BLISTER, dtype: int64
+----------------------------------------SYMPTOM_FALL---------------------------------------- - N    26090
+Y       50
+Name: SYMPTOM_FALL, dtype: int64
+----------------------------------------SYMPTOM_INJECTION SITE WARMTH---------------------------------------- - N    26121
+Y       19
+Name: SYMPTOM_INJECTION SITE WARMTH, dtype: int64
+----------------------------------------SYMPTOM_SWELLING FACE---------------------------------------- - N    26137
+Y        3
+Name: SYMPTOM_SWELLING FACE, dtype: int64
+----------------------------------------SYMPTOM_SYNCOPE---------------------------------------- - N    26067
+Y       73
+Name: SYMPTOM_SYNCOPE, dtype: int64
+----------------------------------------SYMPTOM_EYE SWELLING---------------------------------------- - N    26132
+Y        8
+Name: SYMPTOM_EYE SWELLING, dtype: int64
+----------------------------------------SYMPTOM_NECK PAIN---------------------------------------- - N    26107
+Y       33
+Name: SYMPTOM_NECK PAIN, dtype: int64
+----------------------------------------SYMPTOM_BLOOD PRESSURE DECREASED---------------------------------------- - N    26090
+Y       50
+Name: SYMPTOM_BLOOD PRESSURE DECREASED, dtype: int64
+----------------------------------------SYMPTOM_ASTHMA---------------------------------------- - N    26115
+Y       25
+Name: SYMPTOM_ASTHMA, dtype: int64
+----------------------------------------SYMPTOM_HOT FLUSH---------------------------------------- - N    26098
+Y       42
+Name: SYMPTOM_HOT FLUSH, dtype: int64
+----------------------------------------SYMPTOM_HYPERTENSION---------------------------------------- - N    26088
+Y       52
+Name: SYMPTOM_HYPERTENSION, dtype: int64
+----------------------------------------SYMPTOM_EAR PAIN---------------------------------------- - N    26117
+Y       23
+Name: SYMPTOM_EAR PAIN, dtype: int64
+----------------------------------------SYMPTOM_HYPERSENSITIVITY---------------------------------------- - N    26104
+Y       36
+Name: SYMPTOM_HYPERSENSITIVITY, dtype: int64
+----------------------------------------SYMPTOM_INJECTION SITE BRUISING---------------------------------------- - N    26114
+Y       26
+Name: SYMPTOM_INJECTION SITE BRUISING, dtype: int64
+----------------------------------------SYMPTOM_TINNITUS---------------------------------------- - N    26119
+Y       21
+Name: SYMPTOM_TINNITUS, dtype: int64
+----------------------------------------SYMPTOM_INFLUENZA LIKE ILLNESS---------------------------------------- - N    26111
+Y       29
+Name: SYMPTOM_INFLUENZA LIKE ILLNESS, dtype: int64
+----------------------------------------SYMPTOM_ABORTION SPONTANEOUS---------------------------------------- - N    26115
+Y       25
+Name: SYMPTOM_ABORTION SPONTANEOUS, dtype: int64
+----------------------------------------SYMPTOM_INJECTION SITE CELLULITIS---------------------------------------- - N    26115
+Y       25
+Name: SYMPTOM_INJECTION SITE CELLULITIS, dtype: int64
+----------------------------------------SYMPTOM_EYE PRURITUS---------------------------------------- - N    26124
+Y       16
+Name: SYMPTOM_EYE PRURITUS, dtype: int64
+----------------------------------------SYMPTOM_EPISTAXIS---------------------------------------- - N    26107
+Y       33
+Name: SYMPTOM_EPISTAXIS, dtype: int64
+----------------------------------------SYMPTOM_PHARYNGEAL SWELLING---------------------------------------- - N    26132
+Y        8
+Name: SYMPTOM_PHARYNGEAL SWELLING, dtype: int64
+----------------------------------------SYMPTOM_SWOLLEN TONGUE---------------------------------------- - N    26117
+Y       23
+Name: SYMPTOM_SWOLLEN TONGUE, dtype: int64
+----------------------------------------SYMPTOM_DYSPHONIA---------------------------------------- - N    26111
+Y       29
+Name: SYMPTOM_DYSPHONIA, dtype: int64
+----------------------------------------SYMPTOM_ABDOMINAL DISTENSION---------------------------------------- - N    26106
+Y       34
+Name: SYMPTOM_ABDOMINAL DISTENSION, dtype: int64
+----------------------------------------SYMPTOM_SWELLING---------------------------------------- - N    26051
+Y       89
+Name: SYMPTOM_SWELLING, dtype: int64
+----------------------------------------SYMPTOM_ACUTE MYOCARDIAL INFARCTION---------------------------------------- - N    26140
+Name: SYMPTOM_ACUTE MYOCARDIAL INFARCTION, dtype: int64
+----------------------------------------SYMPTOM_SEIZURE---------------------------------------- - N    26097
+Y       43
+Name: SYMPTOM_SEIZURE, dtype: int64
+----------------------------------------SYMPTOM_EYE PAIN---------------------------------------- - N    26126
+Y       14
+Name: SYMPTOM_EYE PAIN, dtype: int64
+----------------------------------------SYMPTOM_RASH PRURITIC---------------------------------------- - N    26128
+Y       12
+Name: SYMPTOM_RASH PRURITIC, dtype: int64
+----------------------------------------SYMPTOM_MUSCULAR WEAKNESS---------------------------------------- - N    26106
+Y       34
+Name: SYMPTOM_MUSCULAR WEAKNESS, dtype: int64
+----------------------------------------SYMPTOM_MUSCULOSKELETAL STIFFNESS---------------------------------------- - N    26119
+Y       21
+Name: SYMPTOM_MUSCULOSKELETAL STIFFNESS, dtype: int64
+----------------------------------------SYMPTOM_ANOSMIA---------------------------------------- - N    26119
+Y       21
+Name: SYMPTOM_ANOSMIA, dtype: int64
+----------------------------------------SYMPTOM_RHINORRHOEA---------------------------------------- - N    26121
+Y       19
+Name: SYMPTOM_RHINORRHOEA, dtype: int64
+----------------------------------------SYMPTOM_LIMB DISCOMFORT---------------------------------------- - N    26140
+Name: SYMPTOM_LIMB DISCOMFORT, dtype: int64
+----------------------------------------SYMPTOM_ACUTE KIDNEY INJURY---------------------------------------- - N    26118
+Y       22
+Name: SYMPTOM_ACUTE KIDNEY INJURY, dtype: int64
+----------------------------------------SYMPTOM_DISORIENTATION---------------------------------------- - N    26108
+Y       32
+Name: SYMPTOM_DISORIENTATION, dtype: int64
+----------------------------------------SYMPTOM_ARRHYTHMIA---------------------------------------- - N    26114
+Y       26
+Name: SYMPTOM_ARRHYTHMIA, dtype: int64
+----------------------------------------SYMPTOM_BONE PAIN---------------------------------------- - N    26132
+Y        8
+Name: SYMPTOM_BONE PAIN, dtype: int64
+----------------------------------------SYMPTOM_MUSCLE SPASMS---------------------------------------- - N    26127
+Y       13
+Name: SYMPTOM_MUSCLE SPASMS, dtype: int64
+----------------------------------------SYMPTOM_EAR DISCOMFORT---------------------------------------- - N    26140
+Name: SYMPTOM_EAR DISCOMFORT, dtype: int64
+----------------------------------------SYMPTOM_INJECTION SITE URTICARIA---------------------------------------- - N    26125
+Y       15
+Name: SYMPTOM_INJECTION SITE URTICARIA, dtype: int64
+----------------------------------------SYMPTOM_DEHYDRATION---------------------------------------- - N    26117
+Y       23
+Name: SYMPTOM_DEHYDRATION, dtype: int64
+----------------------------------------SYMPTOM_INDURATION---------------------------------------- - N    26081
+Y       59
+Name: SYMPTOM_INDURATION, dtype: int64
+----------------------------------------SYMPTOM_LETHARGY---------------------------------------- - N    26114
+Y       26
+Name: SYMPTOM_LETHARGY, dtype: int64
+----------------------------------------SYMPTOM_GAIT DISTURBANCE---------------------------------------- - N    26123
+Y       17
+Name: SYMPTOM_GAIT DISTURBANCE, dtype: int64
+----------------------------------------SYMPTOM_AXILLARY MASS---------------------------------------- - N    26117
+Y       23
+Name: SYMPTOM_AXILLARY MASS, dtype: int64
+----------------------------------------SYMPTOM_VERTIGO---------------------------------------- - N    26122
+Y       18
+Name: SYMPTOM_VERTIGO, dtype: int64
+----------------------------------------SYMPTOM_AMNESIA---------------------------------------- - N    26122
+Y       18
+Name: SYMPTOM_AMNESIA, dtype: int64
+----------------------------------------SYMPTOM_DEEP VEIN THROMBOSIS---------------------------------------- - N    26120
+Y       20
+Name: SYMPTOM_DEEP VEIN THROMBOSIS, dtype: int64
+----------------------------------------SYMPTOM_INJECTION SITE MASS---------------------------------------- - N    26126
+Y       14
+Name: SYMPTOM_INJECTION SITE MASS, dtype: int64
+----------------------------------------SYMPTOM_HYPOTENSION---------------------------------------- - N    26116
+Y       24
+Name: SYMPTOM_HYPOTENSION, dtype: int64
+----------------------------------------SYMPTOM_DRY THROAT---------------------------------------- - N    26120
+Y       20
+Name: SYMPTOM_DRY THROAT, dtype: int64
+----------------------------------------SYMPTOM_PNEUMONIA---------------------------------------- - N    26126
+Y       14
+Name: SYMPTOM_PNEUMONIA, dtype: int64
+----------------------------------------SYMPTOM_DISTURBANCE IN ATTENTION---------------------------------------- - N    26118
+Y       22
+Name: SYMPTOM_DISTURBANCE IN ATTENTION, dtype: int64
+----------------------------------------SYMPTOM_WHEEZING---------------------------------------- - N    26124
+Y       16
+Name: SYMPTOM_WHEEZING, dtype: int64
+----------------------------------------SYMPTOM_AGITATION---------------------------------------- - N    26119
+Y       21
+Name: SYMPTOM_AGITATION, dtype: int64
+----------------------------------------SYMPTOM_SKIN WARM---------------------------------------- - N    26131
+Y        9
+Name: SYMPTOM_SKIN WARM, dtype: int64
+----------------------------------------SYMPTOM_NASAL CONGESTION---------------------------------------- - N    26124
+Y       16
+Name: SYMPTOM_NASAL CONGESTION, dtype: int64
+----------------------------------------SYMPTOM_VISION BLURRED---------------------------------------- - N    26120
+Y       20
+Name: SYMPTOM_VISION BLURRED, dtype: int64
+----------------------------------------SYMPTOM_SLEEP DISORDER---------------------------------------- - N    26124
+Y       16
+Name: SYMPTOM_SLEEP DISORDER, dtype: int64
+----------------------------------------SYMPTOM_SOMNOLENCE---------------------------------------- - N    26128
+Y       12
+Name: SYMPTOM_SOMNOLENCE, dtype: int64
+----------------------------------------SYMPTOM_BLEPHAROSPASM---------------------------------------- - N    26120
+Y       20
+Name: SYMPTOM_BLEPHAROSPASM, dtype: int64
+----------------------------------------SYMPTOM_HEART RATE---------------------------------------- - N    26014
+Y      126
+Name: SYMPTOM_HEART RATE, dtype: int64
+----------------------------------------SYMPTOM_TENDERNESS---------------------------------------- - N    26128
+Y       12
+Name: SYMPTOM_TENDERNESS, dtype: int64
+----------------------------------------SYMPTOM_ABNORMAL BEHAVIOR---------------------------------------- - N    26140
+Name: SYMPTOM_ABNORMAL BEHAVIOR, dtype: int64
+----------------------------------------SYMPTOM_PALLOR---------------------------------------- - N    26128
+Y       12
+Name: SYMPTOM_PALLOR, dtype: int64
+----------------------------------------SYMPTOM_INJECTION SITE DISCOMFORT---------------------------------------- - N    26140
+Name: SYMPTOM_INJECTION SITE DISCOMFORT, dtype: int64
+----------------------------------------SYMPTOM_RESPIRATORY TRACT CONJESTION---------------------------------------- - N    26140
+Name: SYMPTOM_RESPIRATORY TRACT CONJESTION, dtype: int64
+----------------------------------------SYMPTOM_DYSPEPSIA---------------------------------------- - N    26128
+Y       12
+Name: SYMPTOM_DYSPEPSIA, dtype: int64
+----------------------------------------SYMPTOM_ABNORMAL DREAMS---------------------------------------- - N    26132
+Y        8
+Name: SYMPTOM_ABNORMAL DREAMS, dtype: int64
+----------------------------------------SYMPTOM_ACUTE RESPIRATORY FAILURE---------------------------------------- - N    26125
+Y       15
+Name: SYMPTOM_ACUTE RESPIRATORY FAILURE, dtype: int64
+----------------------------------------SYMPTOM_OEDEMA PERIPHERAL---------------------------------------- - N    26123
+Y       17
+Name: SYMPTOM_OEDEMA PERIPHERAL, dtype: int64
+----------------------------------------SYMPTOM_BRADYCARDIA---------------------------------------- - N    26125
+Y       15
+Name: SYMPTOM_BRADYCARDIA, dtype: int64
+----------------------------------------SYMPTOM_DEAFNESS UNILATERAL---------------------------------------- - N    26120
+Y       20
+Name: SYMPTOM_DEAFNESS UNILATERAL, dtype: int64
+----------------------------------------SYMPTOM_HEAD DISCOMFORT---------------------------------------- - N    26140
+Name: SYMPTOM_HEAD DISCOMFORT, dtype: int64
+----------------------------------------SYMPTOM_INSOMNIA---------------------------------------- - N    26118
+Y       22
+Name: SYMPTOM_INSOMNIA, dtype: int64
+----------------------------------------SYMPTOM_DEAFNESS---------------------------------------- - N    26102
+Y       38
+Name: SYMPTOM_DEAFNESS, dtype: int64
+----------------------------------------SYMPTOM_MYOCARDIAL INFARCTION---------------------------------------- - N    26140
+Name: SYMPTOM_MYOCARDIAL INFARCTION, dtype: int64
+----------------------------------------SYMPTOM_BLOOD PRESSURE ABNORMAL---------------------------------------- - N    26128
+Y       12
+Name: SYMPTOM_BLOOD PRESSURE ABNORMAL, dtype: int64
+----------------------------------------SYMPTOM_PRESYNCOPE---------------------------------------- - N    26122
+Y       18
+Name: SYMPTOM_PRESYNCOPE, dtype: int64
+----------------------------------------SYMPTOM_ASYMPTOMATIC COVID-19---------------------------------------- - N    26130
+Y       10
+Name: SYMPTOM_ASYMPTOMATIC COVID-19, dtype: int64
+----------------------------------------SYMPTOM_NONE---------------------------------------- - N    23820
+Y     2320
+Name: SYMPTOM_NONE, dtype: int64
