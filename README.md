@@ -9,6 +9,15 @@ NOTE:  This same map is provided at the bottom of the ReadMe to provide file nam
 
 Please visit our [Google Slide Presentation](https://docs.google.com/presentation/d/1jvdRTj7KpEPRe3xggcCQyRMWejOfemQR9ayRXhyVhGs/edit?usp=sharing) for more details.  Speaker notes are included.
 
+## Reason We Selected This Topic
+This pandemic has been a life altering experience for everyone around the world and lot of innocent lives were lost. Vaccination is our only hope to bringing an end to this and we would like to help if possible, remove that slightest of chance of someone dying or having a life threatening event from the this very cure.
+
+## Questions We Hope to Answer
+1. Is there a pattern to the adverse reactions that might validate concern for taking the vaccine or confirm confidence in the vaccines?
+
+2. Assuming an adverse reaction to one of the Covid-19 vaccines from PFizer, Moderna or Johnson & Johnson, can taking certain medications or having allergies or showing certain symptoms help predict the likelihood of a severe reaction (death, life threatening circumstances or hospitalization) for a certain age group or sex?
+
+
 ## Data Source
  - Our data source is from HHS Vaers website - [Data Source](https://vaers.hhs.gov/data/datasets.html?)
  - We downloaded the latest available data for 2020 and 2021
@@ -115,7 +124,10 @@ Our model has been trained using train_test_split from sklearn. We stratify our 
 Our logistic regression model for predicting severe adverse reactions predicts the occurrence of a serious reaction to the vaccine at a rate of ~87.76% . After training on the training set, the model attempts to predict whether a serious reaction will occur in the observations of our testing set. There were 10,144 total observations in our testing data, and our model correctly predicted whether or not a serious reaction occurred in 8,902 of those observations.  It is important to note that the accuracy score is separate from the precision and recall scores shown in the classification report. While accuracy measures the total correctly predicted observations out of the total observations, precision calculates the total number of correctly predicted “positive” observations over the total number of “positive” predicted observations, and sensitivity/recall calculates the ratio of correctly predicted positive observations to the total number of actual positive observations.
 
 Discussion of Sensitivity/Recall Metric: our model’s recall is not strong at just 51%, meaning out of all the people who actually have serious adverse reactions to the vaccine, our model only captures 51% of those observations. While our model is usually correct when it does predict a serious adverse reaction, this recall score is certainly not ideal for possibly implementing into a real world application, especially in a health-facing area. However, we still believe our model could have value as it is. When our model does predict a serious adverse reaction, it is usually correct, so using our model as an early test for someone with an adverse reaction could prove useful. If a patient with an adverse reaction were to input their features into the model, and our model predicts a serious adverse reaction, there is a good chance that serious adverse reaction may occur. A negative result from our model would have to be almost disregarded due to the high amount of false negatives our model produces, but a positive result would be cause for concern and would indicate the patient should seek further medical attention.
+
 Further analysis needs to be done to improve the recall metric in our model, which could include removing unimportant features, and possibly switching to a more complex model such as a deep learning neural network or Random Forest Model that could better handle the complex features of our model. This would even more likely be the case if we continued to clean the original data and were to add additional medications, allergies, and symptoms to our model.
+
+**In conclusion, we are not satisfied with a 49% rate of false negatives.  This would cause individuals who tested against our model to conclude they will not have a severe reacttion, when they actually could at a rate of 49%.  Therefore, our model would need to be refined as indicated above prior to any public presentation of the model.**
 
 #### How the Model Addresses the Question or Problem Being Solved
 The model helps address the question of what features are important in the case of a serious adverse reaction. By providing the importance (whether positive or negative) of each feature in the calculation of the probability of a serious adverse reaction, we can see which of our features are contributing to these serious adverse reactions. Additionally, with a fairly strong accuracy score of ~87.75%, given a certain patient’s general and medical information, our model could help predict whether someone who has an adverse reaction to the vaccine will have a serious adverse reaction, which would be beneficial not only to the patient themselves, but healthcare providers as well. We hope to add allergies and symptoms of each patient to our features, which will provide further insight to what exactly is contributing to the likelihood of a serious adverse reaction to the Covid-19 Vaccine.
@@ -125,6 +137,8 @@ Our overall story and study of our analysis will let the user interact with the 
 
 
 [Click Here for Tableau Visualizations](https://public.tableau.com/views/Final_Project_Viz/COVID19Dashboard?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
+
+We have provided a recording of a demonstration of the Python library Shapash, which is visualization for our supervised learning model.  Please see zoom_0.mp4 in our Main branch.
 
 ## The Summary
 COVID-19 vaccines help our bodies develop immunity to the virus that causes COVID-19 without us having to get the illness. Getting vaccinated is one of many steps you can take to protect yourself and others from COVID-19.  Protection from COVID-19 is critically important because for some people, COVID-19 can cause severe illness or death as seen by the data we are analyzing. 
